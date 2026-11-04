@@ -1,0 +1,12 @@
+name: FirstPlugin
+version: 1.0.0
+main: com.example.Main
+api-version: '1.21.11'
+description: My First Minecraft Plugin
+author: Siz
+
+commands:
+  iyiles:
+    description: Oyuncunun canini ve acligini fuller
+    permission: firstplugin.iyiles
+    permission-message: &c bu komutu kullanmak icin yetkiniz yok!
